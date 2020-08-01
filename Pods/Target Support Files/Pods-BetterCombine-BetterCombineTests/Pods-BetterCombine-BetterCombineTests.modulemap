@@ -1,0 +1,6 @@
+framework module Pods_BetterCombine_BetterCombineTests {
+  umbrella header "Pods-BetterCombine-BetterCombineTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
