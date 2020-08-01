@@ -83,7 +83,6 @@ Pod::Spec.new do |spec|
   :tag => "#{s.version}" }
 
   s.dependency 'CombineDataSources',:git => 'https://github.com/goodboyyyy/CombineDataSources.git'
-  s.dependency 'CombineCocoa',:git => 'https://github.com/goodboyyyy/CombineCocoa.git'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
