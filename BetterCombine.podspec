@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   s.source = { :git => "https://github.com/iMostfa/BetterCombine.git",
   :tag => "#{s.version}" }
 
-  s.dependency 'CombineDataSources',:git => 'https://github.com/goodboyyyy/CombineDataSources.git'
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
