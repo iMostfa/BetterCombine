@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B6F49D55BE3041F88312D2 /* Pods_BetterCombine_BetterCombineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7255992F6BCDC1DC7A8C7EA /* Pods_BetterCombine_BetterCombineTests.framework */; };
 		5CD4E8BA24D4A6F300380FC3 /* BetterCombine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD4E8B024D4A6F200380FC3 /* BetterCombine.framework */; };
 		5CD4E8BF24D4A6F300380FC3 /* BetterCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4E8BE24D4A6F300380FC3 /* BetterCombineTests.swift */; };
 		5CD4E8C124D4A6F300380FC3 /* BetterCombine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD4E8B324D4A6F200380FC3 /* BetterCombine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB912B142A45A96617FB2F14 /* Pods_BetterCombine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0513E58F67B14DDE9F8F590E /* Pods_BetterCombine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0513E58F67B14DDE9F8F590E /* Pods_BetterCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D1623B73805B89DFB67ED8 /* Pods-BetterCombine-BetterCombineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterCombine-BetterCombineTests.release.xcconfig"; path = "Target Support Files/Pods-BetterCombine-BetterCombineTests/Pods-BetterCombine-BetterCombineTests.release.xcconfig"; sourceTree = "<group>"; };
+		58664607D8E4DF427952BA69 /* Pods-BetterCombine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterCombine.release.xcconfig"; path = "Target Support Files/Pods-BetterCombine/Pods-BetterCombine.release.xcconfig"; sourceTree = "<group>"; };
 		5CD4E8B024D4A6F200380FC3 /* BetterCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD4E8B324D4A6F200380FC3 /* BetterCombine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterCombine.h; sourceTree = "<group>"; };
 		5CD4E8B424D4A6F200380FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CD4E8B924D4A6F300380FC3 /* BetterCombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterCombineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD4E8BE24D4A6F300380FC3 /* BetterCombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterCombineTests.swift; sourceTree = "<group>"; };
 		5CD4E8C024D4A6F300380FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952B383DCADEDE7573671616 /* Pods-BetterCombine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterCombine.debug.xcconfig"; path = "Target Support Files/Pods-BetterCombine/Pods-BetterCombine.debug.xcconfig"; sourceTree = "<group>"; };
+		A7255992F6BCDC1DC7A8C7EA /* Pods_BetterCombine_BetterCombineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterCombine_BetterCombineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83F3E92BE4BD2802ACBAA20 /* Pods-BetterCombine-BetterCombineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterCombine-BetterCombineTests.debug.xcconfig"; path = "Target Support Files/Pods-BetterCombine-BetterCombineTests/Pods-BetterCombine-BetterCombineTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB912B142A45A96617FB2F14 /* Pods_BetterCombine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CD4E8BA24D4A6F300380FC3 /* BetterCombine.framework in Frameworks */,
+				03B6F49D55BE3041F88312D2 /* Pods_BetterCombine_BetterCombineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,8 @@
 				5CD4E8B224D4A6F200380FC3 /* BetterCombine */,
 				5CD4E8BD24D4A6F300380FC3 /* BetterCombineTests */,
 				5CD4E8B124D4A6F200380FC3 /* Products */,
+				C3CE9C869BB3E808C3D7A9CF /* Pods */,
+				8C5167ECBAD8C3E7467C33D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +98,26 @@
 			path = BetterCombineTests;
 			sourceTree = "<group>";
 		};
+		8C5167ECBAD8C3E7467C33D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0513E58F67B14DDE9F8F590E /* Pods_BetterCombine.framework */,
+				A7255992F6BCDC1DC7A8C7EA /* Pods_BetterCombine_BetterCombineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3CE9C869BB3E808C3D7A9CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				952B383DCADEDE7573671616 /* Pods-BetterCombine.debug.xcconfig */,
+				58664607D8E4DF427952BA69 /* Pods-BetterCombine.release.xcconfig */,
+				D83F3E92BE4BD2802ACBAA20 /* Pods-BetterCombine-BetterCombineTests.debug.xcconfig */,
+				20D1623B73805B89DFB67ED8 /* Pods-BetterCombine-BetterCombineTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CD4E8C424D4A6F300380FC3 /* Build configuration list for PBXNativeTarget "BetterCombine" */;
 			buildPhases = (
+				F477E084471608E0B9166CED /* [CP] Check Pods Manifest.lock */,
 				5CD4E8AB24D4A6F200380FC3 /* Headers */,
 				5CD4E8AC24D4A6F200380FC3 /* Sources */,
 				5CD4E8AD24D4A6F200380FC3 /* Frameworks */,
@@ -122,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CD4E8C724D4A6F300380FC3 /* Build configuration list for PBXNativeTarget "BetterCombineTests" */;
 			buildPhases = (
+				5A3C6893AEFE5368A69A057A /* [CP] Check Pods Manifest.lock */,
 				5CD4E8B524D4A6F300380FC3 /* Sources */,
 				5CD4E8B624D4A6F300380FC3 /* Frameworks */,
 				5CD4E8B724D4A6F300380FC3 /* Resources */,
+				873A279616BB693B9C34ABBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +183,7 @@
 				TargetAttributes = {
 					5CD4E8AF24D4A6F200380FC3 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					5CD4E8B824D4A6F300380FC3 = {
 						CreatedOnToolsVersion = 11.5;
@@ -189,6 +225,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A3C6893AEFE5368A69A057A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterCombine-BetterCombineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		873A279616BB693B9C34ABBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetterCombine-BetterCombineTests/Pods-BetterCombine-BetterCombineTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetterCombine-BetterCombineTests/Pods-BetterCombine-BetterCombineTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetterCombine-BetterCombineTests/Pods-BetterCombine-BetterCombineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F477E084471608E0B9166CED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterCombine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CD4E8AC24D4A6F200380FC3 /* Sources */ = {
@@ -339,7 +439,9 @@
 		};
 		5CD4E8C524D4A6F300380FC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952B383DCADEDE7573671616 /* Pods-BetterCombine.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4P4X5M92CT;
@@ -356,6 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mostfa.BetterCombine;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +466,9 @@
 		};
 		5CD4E8C624D4A6F300380FC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58664607D8E4DF427952BA69 /* Pods-BetterCombine.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4P4X5M92CT;
@@ -387,6 +492,7 @@
 		};
 		5CD4E8C824D4A6F300380FC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83F3E92BE4BD2802ACBAA20 /* Pods-BetterCombine-BetterCombineTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P4X5M92CT;
@@ -405,6 +511,7 @@
 		};
 		5CD4E8C924D4A6F300380FC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D1623B73805B89DFB67ED8 /* Pods-BetterCombine-BetterCombineTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P4X5M92CT;

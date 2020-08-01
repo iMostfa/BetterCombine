@@ -1,0 +1,30 @@
+PODS:
+  - CombineCocoa (0.1.0)
+  - CombineDataSources (0.2.5):
+    - CombineCocoa
+
+DEPENDENCIES:
+  - CombineCocoa (from `https://github.com/goodboyyyy/CombineCocoa.git`)
+  - CombineDataSources (from `https://github.com/goodboyyyy/CombineDataSources.git`)
+
+EXTERNAL SOURCES:
+  CombineCocoa:
+    :git: https://github.com/goodboyyyy/CombineCocoa.git
+  CombineDataSources:
+    :git: https://github.com/goodboyyyy/CombineDataSources.git
+
+CHECKOUT OPTIONS:
+  CombineCocoa:
+    :commit: 8795d1e41ea46a2a4a516a67715564015b914efb
+    :git: https://github.com/goodboyyyy/CombineCocoa.git
+  CombineDataSources:
+    :commit: 0953a1296325cb41fd1f21822fc8f2d9f9f3aaed
+    :git: https://github.com/goodboyyyy/CombineDataSources.git
+
+SPEC CHECKSUMS:
+  CombineCocoa: df9d7a37d4df3f6085ca249b872ea97aca6d1182
+  CombineDataSources: e5283c617e9a31d131f4424ed5cc754b4802d016
+
+PODFILE CHECKSUM: 155a5ddf9a86f2dd92297286f25b05ec513536c3
+
+COCOAPODS: 1.9.3
