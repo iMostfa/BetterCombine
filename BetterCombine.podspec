@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :git => "https://github.com/iMostfa/BetterCombine.git",
+  s.source = { :git => 'https://github.com/iMostfa/BetterCombine.git',
   :tag => "#{s.version}" }
 
 
