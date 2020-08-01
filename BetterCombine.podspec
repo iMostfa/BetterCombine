@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "BetterCombine"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of BetterCombine."
+  spec.summary      = "Better Collection view/ Table view datasources & delegates"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/BetterCombine"
+  spec.homepage     = "twitter.com/m__tfa"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,8 +79,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :git => 'https://github.com/iMostfa/BetterCombine.git',
-  :tag => "#{s.version}" }
+  spec.source = { :git => "https://github.com/iMostfa/BetterCombine.git",
+  :tag => "#{spec.version}" }
 
 
 
