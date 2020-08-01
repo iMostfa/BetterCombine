@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-BetterCombine-BetterCombineTests/Pods-BetterCombine-BetterCombineTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CombineCocoa/CombineCocoa.framework
+${BUILT_PRODUCTS_DIR}/CombineDataSources/CombineDataSources.framework
